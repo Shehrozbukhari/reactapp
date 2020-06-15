@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
         <h1>Num of comments {count}</h1>
-        <button onClick= {() => setCount(count + 1) }>Update counter</button>
+        <button onClick= "{() => setCount(count + 1) }">Update counter</button>
     </div>
     
   );
