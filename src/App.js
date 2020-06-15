@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 // import logo from './logo.svg';
 // import './App.css';
 
@@ -7,9 +7,7 @@ function App() {
   return (
     <div>
         <h1>Num of comments {count}</h1>
-        <button onlcick={() => 
-        setCount(count+1)
-        }"></button>
+        <button onlcick={() => setCount(count+1) }">Update counter</button>
     </div>
     
   );
