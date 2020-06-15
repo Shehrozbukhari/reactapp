@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
         <h1>Num of comments {count}</h1>
-        <button onlcick="() => {
+        <button onlcick={() => 
         setCount(count+1)
         }"></button>
     </div>
