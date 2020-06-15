@@ -6,7 +6,7 @@ function App() {
   let [count, setCount]= useState(1);
   let [timechangee, setTimee]= useState(true);
   return (
-    <div ClassName={`daytime ${timechangee ? 'nighttime' : ''}`}>
+    <div>
         <h1>Num of comments {count}</h1>
         <button onClick= "{() => setCount(count + 1) }">Update counter</button>
         <button onClick= "{() => setTimee(!timechangee) }">Time Changer</button>
