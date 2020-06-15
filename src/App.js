@@ -4,7 +4,7 @@ import './style.css';
 
 function App() {
   let [count, setCount]= useState(1);
-  let [timechangee, setTimee]= useState(false);
+  let [timechangee, setTimee]= useState(true);
   return (
     <div ClassName={`daytime ${timechangee ? 'nighttime' : ''}`}>
         <h1>Num of comments {count}</h1>
