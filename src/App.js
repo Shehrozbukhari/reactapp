@@ -5,10 +5,12 @@ import React, {useState} from 'react';
 function App() {
   let [count, setCount]= useState(1);
   return (
+    <div>
         <h1>Num of comments {count}</h1>
         <button onlcick="() => {
         useState(count+1)
         }"></button>
+    </div>
     
   );
 }
